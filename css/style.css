@@ -1,0 +1,575 @@
+#background-plx{
+	background-image: url('../images/melendrez_mango_placemaking_4.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	opacity: .3;
+	position: fixed;
+		top: 0;
+		left: 0;
+	z-index: -100;
+}
+
+#jumbotron{
+	color: white;
+	background: url("../images/melendrez_444_flower_placemaking.jpg") no-repeat left top;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	height: 1210px;
+	margin-bottom: 0;
+}
+
+#jumbotron h1{
+	font-size: 600%;
+	font-weight: bold;
+	margin-left:75px;
+	margin-top: 175px;
+	text-align:left;
+}
+
+#jumbotron h3{
+	font-size: 300%;
+	margin-right: 75px;
+	text-align: right;
+}
+
+#jumbotron p{
+	background-color: rgba(66,65,11,.65);
+	margin: 0 auto;
+	margin-top: 90px;
+	padding: 10px;
+	text-align: justify;
+	width: 700px;
+}
+
+#jumbotron #homeArrow{
+	background-image: url('../images/new2_home_arrow-to use.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 115%;
+	border: 6px solid white;
+	border-radius: 45px;
+	height: 90px;
+	width: 90px;
+	margin: 0 auto;
+	margin-top: 125px;
+}
+
+#jumbotron #homeArrow{
+	cursor: pointer;
+}
+
+#navbar-main{
+	background-color: rgba(245,187,59,.9);
+	border-radius: 0;
+	border: none;
+	color: white;
+	float: left;
+	width: 100%;
+	z-index: 150;
+}
+
+.navbar-main-scrolled{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#navbar-main a{
+	color: inherit;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#navbar-main a:hover{
+	color: rgb(107,107,107);
+}
+
+#navbar>ul li{
+	padding: 0 20px;
+}
+
+#navbar .dropdown-menu a:hover{
+	background-color: transparent;
+	color: rgb(107,107,107);
+}
+
+.navbar .navbar-nav {
+ 	display: inline-block;
+  	float: none;
+  	vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+	text-align: center;
+}
+
+.collapsed{
+	background-color: white !important;
+	border: none;
+}
+
+.collapsedClick{ /*toggle Class*/
+	background-color: white !important;
+	border: none;
+}
+
+.icon-bar{
+	background-color: rgb(245,187,59) !important;
+}
+
+.dropdown-menu{
+	background-color: rgba(245, 187, 59,.9);
+	border: none;
+	box-shadow: none;
+	position: absolute;
+		left: 20px;
+	width: 100%;
+}
+
+.dropdown-menu li a{
+	font-size: 100% !important;
+	padding-left: 0;
+}
+
+.dropdown span{
+	position: relative;
+		left: 10px;
+}
+
+.dropdown:hover{
+	cursor: pointer;
+}
+
+.active{ /*active 'page' in navbar*/
+	color: rgb(107,107,107) !important;
+}
+
+#circleMenu{
+	background-color: #fff;
+	padding: 100px 0;
+}
+
+#circleMenu div{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#circleMenu div:first-child{
+	text-align: right;
+}
+
+#circleMenu div:last-child{
+	text-align: left;
+}
+
+#circleMenu img{
+	height: 200px;
+}
+
+#circleMenu img:hover{
+	cursor: pointer;
+}
+
+.headline{
+	color: #1CA382;
+	display: table;
+	margin: 0 auto;
+	min-height: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	width: 900px;
+}
+
+.headline h1{
+	display: table-cell;
+	font-family: Arial, sans-serif;
+	font-size: 600%;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.description{
+	background-color: #fff;
+	color: gray;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.description h3{
+	font-size: 150%;
+	font-weight: normal;
+	margin: 0 auto;
+	width: 925px;
+}
+
+.description span{
+	color: #1CA382;
+}
+
+#guide-footer, #goals-footer, #reg-con-footer{
+	background-color: #fff;
+	width: 100%;
+	padding-bottom: 100px;
+	padding-top: 20px;
+}
+
+#guide-footer img{
+	display: block;
+	margin: 0 auto;
+	max-width: 925px;
+	width: 100%;
+}
+
+#guide-footer>h3{
+	color: #1CA382;
+	font-weight: bold;
+	font-size: 200%;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	width: 250px;
+}
+
+#guide-footer .col-sm-4{
+	padding: 0;
+}
+
+#guide-footer .col-sm-4 img{
+	float: right;
+	height: 100px;
+	width: 100px;
+}
+
+#guide-footer .col-sm-4 h2{
+	color: #1CA382;
+	font-size: 275%;
+	font-weight: bold;
+	margin: 0;
+	max-width: 400px;
+	text-align: center;
+}
+
+#guide-footer .col-sm-4 p{
+	color: gray;
+	margin-top: 40px;
+	max-width: 400px;
+}
+
+.tag{
+	margin-top: 50px;
+	position: relative;
+}
+
+.tag div{
+	height: 130px;
+	margin: 0 auto;
+	max-width: 350px;
+}
+
+.tag img{
+	width: 100%;
+}
+
+.tag h3{
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	font-size: 200%;
+	margin: 0 auto;
+	position: relative;
+		top: -95px;
+	width: 300px;
+}
+
+.tag div:hover{
+	cursor: pointer;
+}
+
+.upArrow{
+	color: #1CA382;
+	height: 86px !important;
+	position: absolute;
+		bottom: 0;
+		right: 50px;
+	text-align: center;
+	width: 50px !important;
+}
+
+#goals-footer h1{
+	color: #1CA382;
+	float: left;
+	font-size: 700%;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+#goals-footer .col-sm-3 img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	max-width: 200px;
+	width: 65%;
+}
+
+#goals-footer .col-sm-3 h3{
+	color: #1CA382;
+	font-size: 250%;
+	font-weight: normal;
+	text-align: center;
+}
+
+#goals-footer p{
+	color: gray;
+	text-align: center;
+}
+
+#reg-con-footer>h3{
+	color: #1CA382;
+	font-size: 250%;
+	padding: 0 20px;
+	text-align: center;
+}
+
+#reg-con-footer #column-container{
+	width: 100%;
+}
+
+#reg-con-footer .margin{
+	width: 12.5%;
+	float: left;
+	height: 100px;
+}
+
+#reg-con-footer .width25{
+	float: left;
+	padding: 0 15px;
+	position: relative;
+	width: 25%;
+}
+
+#reg-con-footer .width25 h3{
+	color: #1CA382;
+	font-weight: bold;
+	font-size: 150%;
+	max-width: 200px;
+}
+
+/*desktop arrow image*/
+#reg-con-footer .width25 .hidden-xs{
+	height: 90px;
+	width: 90px;
+	position: absolute;
+		top: -13px;
+		right: 20px;
+	transform: rotate(-145deg);
+}
+
+/*moble arrow image*/
+#reg-con-footer .width25 .visible-xs{
+	height: 100px;
+	width: 100px;
+}
+
+#reg-con-footer p{
+	color: gray;
+}
+
+#reg-con-footer #message{
+	color: #1CA382;
+	font-size: 175%;
+	font-weight: bold;
+	line-height: 120%;
+	margin: 0 auto;
+	margin-top: 75px;
+	max-width: 600px;
+	padding: 0 20px;
+	position: relative;
+}
+
+#reg-con-footer #message img{
+	opacity: .5;
+	position: absolute;
+		top: -50px;
+		left: -100px;
+	transform: rotate(-20deg);
+}
+
+#reg-con-footer #message h3{
+	font-size: 105%;
+	font-weight: bold;
+}
+
+#reg-con-footer{
+	padding-bottom: 20px;
+}
+
+p{
+	font-size: 135%;
+	line-height: 1.25;
+}
+
+.float-right{
+	float: right;
+}
+
+.clear{
+	clear:both;
+}
+
+@media (max-width: 1199px){
+	#jumbotron h1, #jumbotron h3{
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+
+	.description{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	#reg-con-footer .width25 .hidden-xs{
+		height: 65px;
+		width: 65px;
+		top: 0;
+		right: -3px;
+	}
+}
+
+@media (max-width: 991px){
+	#jumbotron p{
+		width: 100%;
+	}
+
+	#navbar>ul li{
+		padding: 0 10px;
+	}
+
+	#navbar>ul>li>a{
+		font-size: 105%;
+	}
+
+	.headline, .description h3{
+		width: 100%;
+	}
+
+	.headline h1{
+		font-size: 500%;
+	}
+
+	.description{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	#goal-footer .col-sm-4 p{
+		max-width: none;
+		padding: 0 30px;
+	}
+
+	#guide-footer .col-sm-4 h2{
+		margin: 0 auto;	}
+
+	#goals-headline h1{
+		margin-top: 85px;
+	}
+
+	#goals-footer h1{
+		font-size: 500%;
+	}
+
+	#goals-footer .col-sm-3 h3{
+		font-size: 200%;
+	}
+
+	#reg-con-footer #message img{
+		height: 75px;
+		width: 75px;
+		position: absolute;
+			top: -25px;
+			left: -75px;
+	}
+
+	.float-right{
+		float: none;
+	}
+
+}
+
+/*switching to mobile*/
+@media (max-width: 767px){
+	#jumbotron h1{
+		margin-top: 50px;
+	}
+
+	.navbar .navbar-collapse{
+		text-align: left;
+	}
+
+	#circleMenu{
+		padding-top: 50px;
+		padding-bottom: 25px;
+	}
+
+	#circleMenu div{
+		margin-top: 25px;
+	}
+
+	#circleMenu div:first-child, #circleMenu div:last-child{
+		text-align: center;
+	}
+
+	.upArrow{
+		height: 86px !important;
+		margin-top: 50px !important;
+		position: static;
+		text-align: center;
+		width: 50px !important;
+	}
+
+	#guide-footer .col-sm-4 img, #reg-con-footer .width25 .visible-xs{
+		float: none !important;
+		margin: 0 auto !important;
+		transform: rotate(-55deg) !important;
+	}
+
+	#guide-footer p{
+		display: block;
+		margin: 0 auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#goals-footer .col-sm-3 h3{
+		font-size: 250%;
+	}
+
+	#reg-con-footer .width25{
+		float: none;
+		padding: 0 20px;
+		width: 100%;
+	}
+
+	#reg-con-footer .width25 h3{
+		font-size: 200%;
+		max-width: none;
+		text-align: center;
+	}
+
+	#reg-con-footer #message{
+		margin-top: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
